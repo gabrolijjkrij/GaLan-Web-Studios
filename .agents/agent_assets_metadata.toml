@@ -1,0 +1,38 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "pL8FP_1RxZsyb0DSW5WnW"
+uri = "file://artifacts/galan-web-studios/public/velour.png"
+type = "image"
+title = "Velour fashion brand website mockup"
+
+[[generated]]
+id = "_f11MvQYnSxKY13-ihvRT"
+uri = "file://artifacts/galan-web-studios/public/apex.png"
+type = "image"
+title = "Apex Capital website mockup"
+
+[[generated]]
+id = "iHpSLI3Oc6--9HlfoQcUi"
+uri = "file://artifacts/galan-web-studios/public/noir.png"
+type = "image"
+title = "Noir Perfumes website mockup"
+
+[[generated]]
+id = "jL4znyeHrsqRXmmD-YC5e"
+uri = "file://artifacts/galan-web-studios/public/orion.png"
+type = "image"
+title = "Orion Studios website mockup"
+
+[[generated]]
+id = "rtw2sVKmL5bR848UgsUHE"
+uri = "file://artifacts/galan-web-studios/public/lumina.png"
+type = "image"
+title = "Lumina Health website mockup"
+
+[[generated]]
+id = "jEAYn2ApdoCIIa8ZX9aib"
+uri = "file://artifacts/galan-web-studios/public/vanta.png"
+type = "image"
+title = "Vanta Labs website mockup"

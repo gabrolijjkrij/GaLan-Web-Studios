@@ -1,0 +1,60 @@
+Redesign and enhance the existing “GaLan Web Studios” website to make it feel more cinematic, aesthetic, luxurious, and visually stunning while keeping the layout clean and minimal. Do not completely remake the site — improve and refine the current design, animations, spacing, typography, and overall atmosphere.
+
+Focus on making the website feel premium and immersive instead of adding too many sections or clutter.
+
+Improvements to make:
+
+* Refine the overall visual style to feel more elegant and futuristic
+* Add smoother animations and transitions throughout the site
+* Improve spacing and layout for a cleaner luxury feel
+* Upgrade typography to feel more sophisticated and modern
+* Add subtle glow effects, glassmorphism, blur, and ambient lighting
+* Enhance hover effects and button interactions
+* Make scrolling feel smoother and more cinematic
+* Add soft floating gradients and subtle animated backgrounds
+* Improve responsiveness and polish on mobile devices
+
+Hero Section:
+
+* Make the hero section more immersive and visually powerful
+* Add a soft animated background with subtle motion
+* Improve headline styling and entrance animations
+* Add cinematic fade-in effects
+* Keep it minimal and elegant
+
+Showcase/Portfolio Section:
+
+* Improve mockup presentation
+* Add smooth hover animations and depth effects
+* Add cleaner spacing and premium card styling
+* Make project previews feel modern and interactive
+
+Contact Section:
+
+* Refine the contact form with elegant glowing inputs
+* Display:
+  “+57 3232809090”
+* Add a sleek premium WhatsApp-style contact button
+* Make the section cleaner and more aesthetic
+
+Design Style:
+
+* Matte black / deep dark background
+* Soft neon accents (red, purple, blue, white glow)
+* Minimal luxury aesthetic
+* Cinematic atmosphere
+* Premium tech startup feel
+* Smooth and calm UI
+
+Animations & Effects:
+
+* Smooth GSAP or Framer Motion animations
+* Floating motion effects
+* Mouse-reactive glow lighting
+* Smooth scroll transitions
+* Ambient particle effects
+* Subtle parallax movement
+* Cinematic loading animation
+
+Important:
+Do not overcrowd the website with content or unnecessary elements. Keep the design minimal, clean, immersive, and extremely aesthetic. Every animation and effect should feel intentional and premium.
