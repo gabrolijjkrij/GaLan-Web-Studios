@@ -1,0 +1,49 @@
+Add a cinematic scroll-driven stop-motion animation sequence to the website that activates while the user scrolls down the page. The animation should feel smooth, immersive, artistic, and premium — similar to luxury brand websites or cinematic interactive experiences.
+
+The effect should simulate a high-quality stop-motion/video-frame animation created from a sequence of images that change based on scroll position.
+
+Requirements:
+
+* Create a scroll-controlled image sequence animation
+* As the user scrolls, images should transition frame-by-frame smoothly
+* The animation must feel cinematic and fluid, not choppy
+* Use high-resolution frames with motion blur and atmospheric visuals
+* Keep the experience immersive and aesthetic
+
+Visual Direction:
+
+* Dark cinematic atmosphere
+* Matte black backgrounds
+* Ambient lighting and glow
+* Smooth transitions between frames
+* Luxury creative studio aesthetic
+* Minimal UI while animation plays
+
+Animation Ideas (choose the one that fits best):
+
+* Floating futuristic city visuals
+* Abstract glowing shapes morphing
+* Cinematic camera flythrough
+* Creative studio workspace transforming
+* Luxury tech-inspired motion sequence
+* Dark atmospheric particles and energy effects
+
+Behavior:
+
+* Pin the section while scrolling so the animation plays during scroll
+* Use smooth scrubbed scrolling with GSAP ScrollTrigger or Framer Motion
+* Add subtle zoom, blur, and parallax effects while frames transition
+* Blend the animation naturally into the rest of the website
+* Include cinematic fade transitions before and after the sequence
+
+Technical Requirements:
+
+* Use an optimized image sequence approach
+* Preload frames for smooth playback
+* Maintain strong performance on desktop and mobile
+* Use canvas rendering if needed for smoother playback
+* Keep animations smooth and premium, not overwhelming
+
+Important:
+
+Do not make the animation flashy or chaotic. The goal is to create a visually stunning cinematic scroll experience that feels elegant, futuristic, immersive, and intentional.

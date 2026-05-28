@@ -3,6 +3,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { LoadingScreen } from "./components/LoadingScreen";
 import { CustomCursor } from "./components/CustomCursor";
 import { AmbientBackground } from "./components/AmbientBackground";
+import { ScrollAnimation } from "./components/ScrollAnimation";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { MessageSquare, ArrowRight, ArrowDown } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
@@ -83,6 +84,8 @@ function AppContent() {
           </motion.div>
         </motion.div>
       </section>
+
+      <ScrollAnimation />
 
       {/* Services Section */}
       <section className="py-32 px-4 md:px-12 max-w-7xl mx-auto relative z-10">
