@@ -7,6 +7,7 @@ import { ScrollAnimation } from "./components/ScrollAnimation";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { MessageSquare, ArrowRight, ArrowDown } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
+import logoImg from "/logo.png";
 
 const queryClient = new QueryClient();
 
@@ -35,6 +36,28 @@ function AppContent() {
     <div ref={containerRef} className="relative w-full text-gray-200">
       <CustomCursor />
       <AmbientBackground />
+
+      {/* Navbar */}
+      <motion.nav
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.3 }}
+        className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-12 py-4"
+        style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, transparent 100%)", backdropFilter: "blur(0px)" }}
+      >
+        <a href="/" className="flex items-center gap-3 group">
+          <img src={logoImg} alt="GaLan Web Studios" className="h-10 w-auto drop-shadow-lg" />
+          <span className="text-xs uppercase tracking-[0.25em] text-gray-400 group-hover:text-white transition-colors duration-300 hidden sm:inline">
+            GaLan Web Studios
+          </span>
+        </a>
+        <a
+          href="#contact"
+          className="text-xs uppercase tracking-widest text-gray-400 hover:text-white border border-white/10 hover:border-white/30 px-4 py-2 transition-all duration-300"
+        >
+          Start a Project
+        </a>
+      </motion.nav>
 
       {/* Hero Section */}
       <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
@@ -264,10 +287,16 @@ function AppContent() {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 border-t border-white/5 text-center relative z-10">
-        <p className="text-xs uppercase tracking-widest text-gray-600">
-          &copy; {new Date().getFullYear()} GaLan Web Studios. All rights reserved.
-        </p>
+      <footer className="py-12 border-t border-white/5 relative z-10">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center justify-between gap-4">
+          <a href="/" className="flex items-center gap-3 opacity-50 hover:opacity-100 transition-opacity duration-300">
+            <img src={logoImg} alt="GaLan Web Studios" className="h-7 w-auto" />
+            <span className="text-xs uppercase tracking-[0.25em] text-gray-400">GaLan Web Studios</span>
+          </a>
+          <p className="text-xs uppercase tracking-widest text-gray-600">
+            &copy; {new Date().getFullYear()} All rights reserved.
+          </p>
+        </div>
       </footer>
     </div>
   );
