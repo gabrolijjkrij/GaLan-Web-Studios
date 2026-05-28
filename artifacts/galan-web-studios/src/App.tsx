@@ -7,7 +7,8 @@ import { ScrollAnimation } from "./components/ScrollAnimation";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { MessageSquare, ArrowRight, ArrowDown } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
-import logoImg from "/logo.png";
+
+const logoImg = "/logo.png";
 
 const queryClient = new QueryClient();
 
